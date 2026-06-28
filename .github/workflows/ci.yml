@@ -1,0 +1,13 @@
+name: CI
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+jobs:
+  zip00-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate ZIP00 v3
+        run: bash scripts/validate_zip00_v3.sh

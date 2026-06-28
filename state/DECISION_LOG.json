@@ -1,0 +1,10 @@
+[
+  {
+    "id": "ADR-0001",
+    "decision": "Use private GitHub repo as source of truth"
+  },
+  {
+    "id": "ADR-0002",
+    "decision": "Use model-neutral LLM OS"
+  }
+]
