@@ -1,13 +1,24 @@
 name: CI
+
 on:
   push:
     branches: [ main, develop ]
   pull_request:
     branches: [ main, develop ]
+
 jobs:
-  zip00-validation:
+  foundation-validation:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Validate ZIP00 v3
-        run: bash scripts/validate_zip00_v3.sh
+      - name: Validate ZIP01 files
+        run: bash scripts/validate_zip01.sh
+
+  backend-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build backend test image
+        run: docker compose build backend
+      - name: Run backend tests
+        run: docker compose run --rm backend pytest

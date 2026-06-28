@@ -11,10 +11,9 @@ coverage/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
-storage/temp/
-storage/cache/
-storage/exports/
-storage/private/
-storage/secrets/
+storage/temp/*
+storage/cache/*
+storage/exports/*
+storage/private/*
 *.log
 .DS_Store

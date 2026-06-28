@@ -1,27 +1,25 @@
 # NEXT TASK
 
 ## Task ID
-ZIP00-V3-FIRST-COMMIT
+ZIP01-APPLY-FOUNDATION
 
 ## Objective
-Commit ZIP00 v3 Final LLM Operating System to the private AutoShortAI GitHub repository.
+Apply ZIP01 Production Foundation and validate the first runnable AutoShortAI application.
 
-## Scope
-Documentation, LLM operating files, policies, state, templates, automation, GitHub workflows.
-
-## Do Not
-- Do not write application code.
-- Do not add real credentials.
-- Do not configure real YouTube upload.
+## Important
+ZIP00 is frozen. Do not modify ZIP00 operating system files unless a future task explicitly says so.
 
 ## Acceptance Criteria
-- `bash scripts/validate_zip00_v3.sh` passes.
-- Git repository has clean first commit.
-- Remote origin points to private GitHub repo.
-- Next task is prepared for ZIP01 Foundation.
+- `bash scripts/validate_zip01.sh` passes.
+- Backend tests pass.
+- `docker compose up --build` starts all services.
+- `/health` returns OK.
+- frontend loads Apple Glass dashboard.
+- placeholder plugin list is accessible.
 
 ## Validation Commands
 ```bash
-bash scripts/validate_zip00_v3.sh
-git status
+bash scripts/validate_zip01.sh
+docker compose up --build
+docker compose run --rm backend pytest
 ```
