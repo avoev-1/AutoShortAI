@@ -1,0 +1,30 @@
+{
+  "library_id": "default_library",
+  "mode": "general",
+  "assets": [
+    {
+      "asset_id": "asset_slug_or_uuid",
+      "media_type": "video",
+      "path": "projects/project_id/video/example.mp4",
+      "origin": "imported",
+      "status": "draft",
+      "maturity_rating": "general",
+      "manual_review_status": "not_required",
+      "platform_targets": [
+        "generic_vertical_video"
+      ],
+      "tags": [
+        {
+          "name": "example",
+          "category": "general"
+        }
+      ],
+      "versions": [],
+      "zip06_asset_id": null,
+      "fingerprint": null,
+      "metadata": {}
+    }
+  ],
+  "collections": [],
+  "metadata": {}
+}

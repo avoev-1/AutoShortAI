@@ -1,0 +1,7 @@
+.autoshort/releases/zip17/README.md
+docs/AutoShortAI_ZIP17_Local_Workspace_Media_Library/workspace_layout.md
+src/autoshortai/workspace/models.py
+src/autoshortai/workspace/contracts.py
+src/autoshortai/workspace/policies.py
+templates/zip17_workspace/project_manifest.template.json
+examples/zip17_workspace_manifest_example.json

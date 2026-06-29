@@ -1,0 +1,23 @@
+{
+  "zip": "ZIP17",
+  "name": "Local Workspace & Media Library",
+  "archive": "AutoShortAI_ZIP17_Local_Workspace_Media_Library.zip",
+  "installed_components": [
+    ".autoshort/releases/zip17",
+    "docs/AutoShortAI_ZIP17_Local_Workspace_Media_Library",
+    "src/autoshortai/workspace",
+    "templates/zip17_workspace",
+    "tests/structure/test_zip17_structure.py",
+    "tests/fixtures/zip17_expected_files.txt",
+    "examples/zip17_workspace_manifest_example.json",
+    "examples/zip17_project_layout_example.md"
+  ],
+  "architecture_rules": [
+    "local_first",
+    "no_mandatory_database",
+    "no_mandatory_cloud",
+    "platform_agnostic",
+    "restricted_workspace_isolated",
+    "backward_compatible"
+  ]
+}

@@ -1,0 +1,14 @@
+# ZIP17 Restricted Workspace Policy Template
+enabled: false
+manual_review_required: true
+require_consent_metadata: true
+require_all_participants_18_plus: true
+isolate_storage: true
+isolate_logs: true
+allow_automatic_publishing: false
+
+# Notes:
+# - Restricted mode is opt-in and disabled by default.
+# - No restricted media may be accepted without consent metadata.
+# - All participants must be verified 18+.
+# - Manual review is required by default.

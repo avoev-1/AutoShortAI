@@ -1,0 +1,29 @@
+{
+  "project_id": "project_slug_or_uuid",
+  "name": "Project Name",
+  "mode": "general",
+  "status": "active",
+  "platform_targets": [
+    "generic_vertical_video"
+  ],
+  "creative_profile_id": "profile_id",
+  "campaign_id": "campaign_id",
+  "niche": "niche_name",
+  "language": "fr",
+  "maturity_rating": "general",
+  "manual_review_status": "not_required",
+  "paths": {
+    "scripts": "scripts/",
+    "audio": "audio/",
+    "images": "images/",
+    "video": "video/",
+    "subtitles": "subtitles/",
+    "thumbnails": "thumbnails/",
+    "metadata": "metadata/",
+    "exports": "exports/",
+    "versions": "versions/"
+  },
+  "media_asset_ids": [],
+  "versions": [],
+  "metadata": {}
+}

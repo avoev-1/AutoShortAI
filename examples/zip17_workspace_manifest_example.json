@@ -1,0 +1,33 @@
+{
+  "workspace_id": "local_default",
+  "name": "AutoShortAI Local Workspace",
+  "mode": "general",
+  "status": "active",
+  "projects_root": "projects",
+  "library_root": "library",
+  "restricted_root": "restricted",
+  "projects": [
+    {
+      "project_id": "ai_news_short_001",
+      "name": "AI News Short 001",
+      "mode": "general",
+      "status": "active",
+      "platform_targets": [
+        "youtube_shorts",
+        "tiktok",
+        "instagram_reels"
+      ],
+      "creative_profile_id": "ai_news_vertical",
+      "niche": "ai_news",
+      "language": "fr",
+      "maturity_rating": "general",
+      "manual_review_status": "not_required"
+    }
+  ],
+  "libraries": [],
+  "metadata": {
+    "zip": "ZIP17",
+    "local_first": true,
+    "platform_agnostic": true
+  }
+}
