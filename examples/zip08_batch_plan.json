@@ -1,0 +1,7 @@
+{
+  "batch_id": "example_batch_ai_news",
+  "title": "AI news short batch",
+  "target_count": 5,
+  "platform": "youtube_shorts",
+  "cadence_id": "youtube_shorts_daily"
+}

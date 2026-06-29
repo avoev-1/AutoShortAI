@@ -1,0 +1,11 @@
+{
+  "worker_id": "script_worker_local_001",
+  "worker_type": "script_worker",
+  "capabilities": [
+    "script_generation",
+    "hook_generation",
+    "variant_generation"
+  ],
+  "resource_profile": "light",
+  "plugin_first": true
+}

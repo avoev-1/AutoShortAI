@@ -1,0 +1,9 @@
+{
+  "queue_id": "default_local_queue",
+  "persistence_provider": "json_local",
+  "default_priority": "normal",
+  "max_queue_size": 500,
+  "allow_manual_pause": true,
+  "allow_manual_cancel": true,
+  "architecture_release": "ZIP08"
+}

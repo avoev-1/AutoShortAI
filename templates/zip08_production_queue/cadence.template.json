@@ -1,0 +1,10 @@
+{
+  "cadence_id": "youtube_shorts_daily",
+  "name": "YouTube Shorts daily cadence",
+  "frequency": "daily",
+  "timezone": "local",
+  "max_jobs_per_period": 2,
+  "window_start": "09:00",
+  "window_end": "21:00",
+  "blackout_dates": []
+}

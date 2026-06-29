@@ -1,0 +1,9 @@
+{
+  "job_id": "fixture_zip08_job",
+  "job_type": "asset_preparation",
+  "title": "Prepare assets for a Short",
+  "status": "pending",
+  "priority": "high",
+  "platform": "youtube_shorts",
+  "required_worker_type": "asset_worker"
+}

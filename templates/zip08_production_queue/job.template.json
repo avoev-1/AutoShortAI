@@ -1,0 +1,19 @@
+{
+  "job_id": "job_short_001",
+  "job_type": "script_generation",
+  "title": "Generate YouTube Short script",
+  "status": "pending",
+  "priority": "normal",
+  "strategy_id": "strategy_zip07_001",
+  "mission_id": "mission_zip04_001",
+  "batch_id": "batch_week_001",
+  "platform": "youtube_shorts",
+  "scheduled_at": "2026-01-01T09:00:00",
+  "dependency_ids": [],
+  "required_worker_type": "script_worker",
+  "checkpoint_id": null,
+  "asset_refs": [],
+  "metadata": {
+    "architecture_release": "ZIP08"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "batch_id": "batch_youtube_week_001",
+  "title": "Weekly YouTube Shorts batch",
+  "target_count": 10,
+  "source_strategy_id": "strategy_zip07_001",
+  "platform": "youtube_shorts",
+  "cadence_id": "youtube_shorts_daily",
+  "metadata": {
+    "variant_count": 3,
+    "profile": "youtube_shorts_default"
+  }
+}

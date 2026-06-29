@@ -1,0 +1,23 @@
+{
+  "release": "ZIP08",
+  "name": "Production Queue & Scheduler",
+  "archive": "AutoShortAI_ZIP08_Production_Queue_Scheduler",
+  "type": "architecture",
+  "status": "installed",
+  "commit_message": "feat(zip08): production queue scheduler",
+  "compatible_with": ["ZIP01", "ZIP02", "ZIP03", "ZIP04", "ZIP05", "ZIP06", "ZIP07"],
+  "modules": [
+    "autoshortai.production_queue"
+  ],
+  "non_goals": [
+    "advanced analytics",
+    "auto-learning",
+    "Guardian Engine",
+    "heavy dashboard",
+    "complete video rendering runtime",
+    "real AI worker implementation",
+    "phone farm deployment",
+    "SaaS architecture",
+    "mandatory database dependency"
+  ]
+}
