@@ -1,0 +1,4 @@
+AutoShortAI_ZIP15_Guardian_Engine_Foundation installed
+Installed into: /home/cxf/Bureau/Projects/AutoShortAI
+Guardian position: independent development and quality layer
+Claude usage: checklist before/after future implementations

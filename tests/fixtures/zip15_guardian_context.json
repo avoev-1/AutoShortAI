@@ -1,0 +1,30 @@
+{
+  "release": "ZIP15",
+  "guardian_context": {
+    "project_root": "~/Projects/AutoShortAI",
+    "release_id": "ZIP15",
+    "previous_releases": [
+      "ZIP01",
+      "ZIP02",
+      "ZIP03",
+      "ZIP04",
+      "ZIP05",
+      "ZIP06",
+      "ZIP07",
+      "ZIP08",
+      "ZIP09",
+      "ZIP10",
+      "ZIP11",
+      "ZIP12",
+      "ZIP13",
+      "ZIP14"
+    ]
+  },
+  "expected_position": "independent development and quality layer",
+  "must_not_be": [
+    "product feature",
+    "runtime core",
+    "SaaS",
+    "autonomous code rewriter"
+  ]
+}
