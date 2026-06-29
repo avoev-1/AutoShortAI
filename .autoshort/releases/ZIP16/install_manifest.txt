@@ -1,0 +1,4 @@
+AutoShortAI_ZIP16_Multi_Platform_Publishing_Runtime installed
+Installed into: /home/cxf/Bureau/Projects/AutoShortAI
+Architecture: Multi-Platform Publishing Runtime
+Core rule: platform-agnostic adapters, manual review gates, restricted workflows isolated

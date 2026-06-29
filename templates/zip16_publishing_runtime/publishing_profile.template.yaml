@@ -1,0 +1,15 @@
+# ZIP16 Publishing Profile Template
+profile_id: generic_vertical_profile
+platform_id: generic_vertical_video
+category: general
+visibility: private
+manual_review_required: true
+supports_scheduling: false
+metadata:
+  language: en
+  default_hashtags: []
+limits:
+  max_duration_seconds: 180
+  preferred_ratio: "9:16"
+notes:
+  - "This is a template only. Do not place credentials here."

@@ -1,0 +1,15 @@
+# Restricted Adult / X Creator Publishing Profile Template
+profile_id: restricted_creator_profile
+platform_id: generic_adult_creator_platform
+category: adult_restricted
+enabled: false
+manual_review_required: true
+requires_age_gate: true
+requires_consent_metadata: true
+requires_all_participants_18_plus: true
+isolated_credentials_required: true
+isolated_storage_required: true
+sanitized_logs_required: true
+notes:
+  - "Restricted mode must be opt-in and disabled by default."
+  - "Do not store credentials in this file."

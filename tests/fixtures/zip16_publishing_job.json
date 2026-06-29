@@ -1,0 +1,23 @@
+{
+  "request_id": "pub_req_demo_001",
+  "target": {
+    "platform_id": "generic_vertical_video",
+    "account_id": "demo_account",
+    "channel_id": "demo_channel",
+    "category": "general",
+    "visibility": "private"
+  },
+  "metadata": {
+    "title": "Demo Short",
+    "description": "Architecture fixture only.",
+    "hashtags": [
+      "#demo",
+      "#autoshortai"
+    ],
+    "maturity_rating": "general"
+  },
+  "schedule": {
+    "mode": "manual_hold"
+  },
+  "notes": "No real credentials or platform API calls are included."
+}
