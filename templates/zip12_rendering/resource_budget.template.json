@@ -1,0 +1,7 @@
+{
+  "max_cpu_percent": 80,
+  "max_ram_mb": 4096,
+  "max_duration_seconds": 1800,
+  "max_parallel_renders": 1,
+  "allow_final_render_on_battery": false
+}

@@ -1,0 +1,17 @@
+{
+  "id": "generic_vertical_video",
+  "target": "generic",
+  "aspect_ratio": "9:16",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "codec": "h264",
+  "container": "mp4",
+  "max_duration_seconds": 60,
+  "safe_zone": {
+    "top_percent": 0.08,
+    "bottom_percent": 0.14,
+    "left_percent": 0.06,
+    "right_percent": 0.06
+  }
+}

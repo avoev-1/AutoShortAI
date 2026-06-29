@@ -1,0 +1,13 @@
+{
+  "id": "bold_bottom_safe",
+  "font_family": "system",
+  "font_size": 48,
+  "position": "bottom_safe",
+  "max_lines": 2,
+  "export_formats": [
+    "burned_in",
+    "srt",
+    "vtt",
+    "json_timing"
+  ]
+}

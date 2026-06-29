@@ -1,0 +1,12 @@
+{
+  "id": "short_clean_caption",
+  "label": "Short Clean Caption",
+  "supported_profile_ids": [
+    "youtube_shorts_9x16",
+    "tiktok_9x16",
+    "instagram_reels_9x16",
+    "generic_vertical_video"
+  ],
+  "caption_style_id": "bold_bottom_safe",
+  "safe_zone_policy": "profile_default"
+}

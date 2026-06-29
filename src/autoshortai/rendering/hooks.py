@@ -1,0 +1,18 @@
+ZIP12_RENDERING_HOOKS = (
+    "before_video_project_created",
+    "after_video_project_created",
+    "before_timeline_created",
+    "after_timeline_created",
+    "before_render_profile_selected",
+    "after_render_profile_selected",
+    "before_draft_render_started",
+    "after_draft_render_completed",
+    "before_final_render_started",
+    "after_final_render_completed",
+    "after_render_failed",
+    "before_subtitles_burned",
+    "after_subtitles_burned",
+    "before_audio_mix_started",
+    "after_audio_mix_completed",
+    "after_export_manifest_created",
+)

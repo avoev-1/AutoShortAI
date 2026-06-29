@@ -1,0 +1,17 @@
+{
+  "id": "export.project.sample.final",
+  "project_id": "project.sample",
+  "timeline_id": "timeline.short.default",
+  "render_profile_id": "generic_vertical_video",
+  "render_mode": "final",
+  "outputs": [
+    {
+      "path": "outputs/project.sample/final.mp4",
+      "media_type": "video/mp4"
+    }
+  ],
+  "source_asset_refs": [
+    "asset.voiceover.001",
+    "asset.background.001"
+  ]
+}

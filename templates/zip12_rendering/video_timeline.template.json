@@ -1,0 +1,30 @@
+{
+  "id": "timeline.short.default",
+  "duration_seconds": 35,
+  "scenes": [
+    {
+      "id": "scene.hook",
+      "label": "Hook",
+      "start_seconds": 0,
+      "duration_seconds": 3
+    },
+    {
+      "id": "scene.context",
+      "label": "Context",
+      "start_seconds": 3,
+      "duration_seconds": 7
+    },
+    {
+      "id": "scene.value",
+      "label": "Value",
+      "start_seconds": 10,
+      "duration_seconds": 17
+    },
+    {
+      "id": "scene.punch",
+      "label": "Punch",
+      "start_seconds": 27,
+      "duration_seconds": 8
+    }
+  ]
+}

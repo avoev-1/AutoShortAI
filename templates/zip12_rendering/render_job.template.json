@@ -1,0 +1,11 @@
+{
+  "id": "render.job.sample",
+  "mode": "draft",
+  "priority": "normal",
+  "project": {
+    "id": "project.sample",
+    "title": "Sample Short",
+    "render_profile_id": "generic_vertical_video",
+    "template_id": "short_clean_caption"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "release": "ZIP12",
+  "name": "Video Rendering Pipeline",
+  "archive": "AutoShortAI_ZIP12_Video_Rendering_Pipeline",
+  "type": "architecture",
+  "status": "installed",
+  "commit_message": "feat(zip12): video rendering pipeline",
+  "compatible_with": ["ZIP01", "ZIP02", "ZIP03", "ZIP04", "ZIP05", "ZIP06", "ZIP07", "ZIP08", "ZIP09", "ZIP10", "ZIP11"],
+  "modules": [
+    "autoshortai.rendering"
+  ],
+  "platform_strategy": {
+    "first_target": "YouTube Shorts",
+    "core_rule": "platform-agnostic for the complete software",
+    "future_platforms": ["TikTok", "Instagram Reels", "Facebook Reels", "Snapchat Spotlight", "X/Twitter video", "future networks"]
+  },
+  "rendering_strategy": {
+    "core_is_provider_neutral": true,
+    "mandatory_ffmpeg": false,
+    "draft_render_mode": true,
+    "final_render_mode": true,
+    "cache_and_checkpoint_ready": true,
+    "resource_budget_ready": true
+  },
+  "non_goals": [
+    "complete renderer implementation",
+    "mandatory FFmpeg dependency",
+    "mandatory MoviePy dependency",
+    "mandatory OpenCV dependency",
+    "cloud rendering requirement",
+    "platform-specific hard-coding",
+    "full AI worker runtime",
+    "dashboard UI implementation",
+    "Guardian Engine implementation",
+    "phone farm implementation",
+    "SaaS architecture",
+    "mandatory database dependency"
+  ]
+}

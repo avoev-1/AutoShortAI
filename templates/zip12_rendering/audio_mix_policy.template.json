@@ -1,0 +1,10 @@
+{
+  "normalize": true,
+  "duck_music_under_voice": true,
+  "target_lufs": -14.0,
+  "tracks": [
+    "voiceover",
+    "music",
+    "sfx"
+  ]
+}
