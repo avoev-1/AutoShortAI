@@ -1,0 +1,14 @@
+schema: autoshortai.asset_provider.v1
+provider:
+  name: filesystem
+  version: 0.1.0
+  capabilities:
+    - read
+    - write
+    - delete
+    - checksum
+config:
+  root: .autoshortai/assets
+  portable_paths: true
+metadata:
+  purpose: ZIP06 architecture template only

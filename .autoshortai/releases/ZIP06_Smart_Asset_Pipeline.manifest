@@ -1,0 +1,5 @@
+release=ZIP06 Smart Asset Pipeline
+installed_at=2026-06-29T22:27:02Z
+source=/home/cxf/Bureau/Projects/Archives/AutoShortAI_ZIP06_Smart_Asset_Pipeline
+target=/home/cxf/Bureau/Projects/AutoShortAI
+paths=docs/AutoShortAI_ZIP06_Smart_Asset_Pipeline,src/autoshortai/asset_pipeline,templates/zip06_asset_pipeline,tests/structure,tests/fixtures,examples/zip06_asset_pipeline

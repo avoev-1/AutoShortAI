@@ -1,0 +1,1 @@
+"""AutoShortAI namespace package."""

@@ -1,0 +1,12 @@
+schema: autoshortai.cost_profile.v1
+budget:
+  max_cost_per_run: 0.00
+  currency: USD
+providers:
+  filesystem:
+    default_operation_cost: 0.00
+  ai_provider_placeholder:
+    default_operation_cost: null
+    requires_explicit_allow: true
+metadata:
+  purpose: ZIP06 architecture template only

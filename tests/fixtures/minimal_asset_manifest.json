@@ -1,0 +1,11 @@
+{
+  "schema": "autoshortai.asset_manifest.v1",
+  "asset": {
+    "namespace": "test",
+    "name": "minimal",
+    "version": "0.0.1",
+    "kind": "metadata",
+    "status": "declared"
+  },
+  "dependencies": []
+}

@@ -1,0 +1,13 @@
+{
+  "schema": "autoshortai.pipeline_checkpoint.v1",
+  "checkpoint_id": "demo-checkpoint-001",
+  "pipeline_id": "demo-pipeline",
+  "step_id": "render-short",
+  "asset_ids": [
+    "shorts.demo:example-video:0.1.0"
+  ],
+  "state": "created",
+  "metadata": {
+    "purpose": "ZIP06 architecture template only"
+  }
+}

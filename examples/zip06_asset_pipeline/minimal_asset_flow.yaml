@@ -1,0 +1,18 @@
+schema: autoshortai.asset_flow_example.v1
+name: minimal-script-to-short-flow
+steps:
+  - id: declare-script
+    output_asset: shorts.demo:script:0.1.0
+    pipeline_module: asset_registry
+  - id: fingerprint-script
+    input_asset: shorts.demo:script:0.1.0
+    pipeline_module: fingerprint_engine
+  - id: plan-render
+    input_assets:
+      - shorts.demo:script:0.1.0
+    output_asset: shorts.demo:render:0.1.0
+    pipeline_module: incremental_build
+  - id: cache-render
+    input_asset: shorts.demo:render:0.1.0
+    pipeline_module: cache_manager
+notes: This is an architecture example only, not production execution logic.

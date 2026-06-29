@@ -1,0 +1,23 @@
+{
+  "schema": "autoshortai.asset_manifest.v1",
+  "asset": {
+    "namespace": "shorts.demo",
+    "name": "example-script",
+    "version": "0.1.0",
+    "kind": "script",
+    "status": "declared"
+  },
+  "location": {
+    "provider": "filesystem",
+    "uri": "assets/scripts/example-script.txt"
+  },
+  "fingerprint": {
+    "algorithm": "sha256",
+    "digest": "replace-with-real-digest"
+  },
+  "dependencies": [],
+  "metadata": {
+    "created_by": "ZIP06 template",
+    "notes": "Architecture template only."
+  }
+}

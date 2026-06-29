@@ -1,0 +1,11 @@
+schema: autoshortai.cache_policy.v1
+policy:
+  name: default-local-development
+  levels:
+    - memory
+    - local_disk
+  ttl_seconds: null
+  max_bytes: null
+  eviction: least_recently_used
+metadata:
+  purpose: ZIP06 architecture template only
