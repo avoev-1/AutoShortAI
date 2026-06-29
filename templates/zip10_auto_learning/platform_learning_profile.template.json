@@ -1,0 +1,10 @@
+{
+  "platform": "generic",
+  "supported_metric_names": [
+    "views",
+    "engagement_rate",
+    "completion_rate"
+  ],
+  "known_constraints": {},
+  "learning_enabled": true
+}

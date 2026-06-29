@@ -1,0 +1,12 @@
+{
+  "experiment_id": "experiment_example",
+  "platform": "generic",
+  "results": [
+    {
+      "variant_id": "variant_a",
+      "status": "inconclusive",
+      "confidence_level": "low"
+    }
+  ],
+  "summary": "Not enough evidence yet."
+}

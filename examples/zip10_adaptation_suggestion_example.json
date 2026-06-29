@@ -1,0 +1,17 @@
+{
+  "suggestion_id": "suggestion:insight:content_001:creative_profile:ai_news_default",
+  "target_ref": "creative_profile:ai_news_default",
+  "action": "test_more",
+  "rationale": "Storytelling hook retained viewers better than baseline, but keep review required.",
+  "platforms": [
+    "generic",
+    "youtube_shorts",
+    "tiktok"
+  ],
+  "confidence": {
+    "score": 0.72,
+    "level": "medium",
+    "sample_size": 5
+  },
+  "reversible": true
+}

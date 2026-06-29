@@ -1,0 +1,17 @@
+{
+  "insight_id": "insight_example",
+  "source_evidence_ids": [
+    "analytics_snapshot_id"
+  ],
+  "platforms": [
+    "generic"
+  ],
+  "confidence": {
+    "score": 0.0,
+    "level": "very_low",
+    "sample_size": 0
+  },
+  "risk_level": "medium",
+  "decision_status": "pending_review",
+  "created_at": "YYYY-MM-DDTHH:MM:SSZ"
+}

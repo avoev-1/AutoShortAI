@@ -1,0 +1,22 @@
+# ZIP10 Hooks
+
+ZIP10 defines plugin-first hooks:
+
+```text
+before_learning_run
+after_learning_run
+before_signal_extracted
+after_signal_extracted
+before_insight_generated
+after_insight_generated
+before_adaptation_suggested
+after_adaptation_suggested
+before_policy_evaluated
+after_policy_evaluated
+before_profile_adjusted
+after_profile_adjusted
+before_learning_memory_saved
+after_learning_memory_saved
+```
+
+Hooks must not require platform-specific code in the core.

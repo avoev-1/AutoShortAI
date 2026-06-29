@@ -1,0 +1,8 @@
+{
+  "policy_id": "default_zip10_policy",
+  "mode": "suggestion_only",
+  "min_confidence": "medium",
+  "max_risk": "medium",
+  "min_sample_size": 3,
+  "locked_targets": []
+}

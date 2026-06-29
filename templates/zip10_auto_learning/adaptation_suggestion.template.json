@@ -1,0 +1,11 @@
+{
+  "suggestion_id": "suggestion_example",
+  "target_ref": "creative_profile:example",
+  "action": "test_more",
+  "rationale": "Insufficient sample size; test more before changing behavior.",
+  "platforms": [
+    "generic"
+  ],
+  "reversible": true,
+  "manual_review_required": true
+}

@@ -1,0 +1,14 @@
+{
+  "content_id": "content_001",
+  "strategy_id": "strategy_ai_news_default",
+  "variant_id": "variant_hook_storytelling",
+  "platform": "generic",
+  "metrics": {
+    "views": 1200,
+    "completion_rate": 0.72,
+    "engagement_rate": 0.08
+  },
+  "cost": {
+    "api_cost_usd": 0.21
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "release": "ZIP10",
+  "name": "Auto-Learning Adaptation Engine",
+  "archive": "AutoShortAI_ZIP10_Auto_Learning_Adaptation_Engine",
+  "type": "architecture",
+  "status": "installed",
+  "commit_message": "feat(zip10): auto learning adaptation engine",
+  "compatible_with": ["ZIP01", "ZIP02", "ZIP03", "ZIP04", "ZIP05", "ZIP06", "ZIP07", "ZIP08", "ZIP09"],
+  "modules": [
+    "autoshortai.learning"
+  ],
+  "platform_strategy": {
+    "first_target": "YouTube Shorts",
+    "core_rule": "platform-agnostic for the complete software",
+    "future_platforms": ["TikTok", "Instagram Reels", "Facebook Reels", "Snapchat Spotlight", "X/Twitter video", "future networks"]
+  },
+  "default_policy": "suggestion_only",
+  "non_goals": [
+    "Guardian Engine",
+    "heavy dashboard",
+    "complete video rendering",
+    "mandatory AI model dependency",
+    "uncontrolled automatic learning",
+    "dangerous automatic mutation",
+    "SaaS architecture",
+    "mandatory database dependency",
+    "single-platform coupling"
+  ]
+}
