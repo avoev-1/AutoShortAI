@@ -1,0 +1,37 @@
+{
+  "snapshot_id": "snapshot_example_001",
+  "content_id": "short_001",
+  "production_job_id": "job_001",
+  "distribution_id": "dist_001",
+  "creative_profile_id": "youtube_shorts_default",
+  "experiment_id": "exp_hook_001",
+  "variant_id": "variant_b",
+  "platform_performances": [
+    {
+      "platform": "youtube_shorts",
+      "platform_content_id": "yt_abc123",
+      "time_window": "24h",
+      "metrics": {
+        "views": 12000,
+        "likes": 650,
+        "comments": 42,
+        "shares": 88,
+        "completion_rate": 0.74,
+        "engagement_rate": 0.065
+      }
+    },
+    {
+      "platform": "tiktok",
+      "platform_content_id": "tt_abc123",
+      "time_window": "24h",
+      "metrics": {
+        "views": 18000,
+        "likes": 1200,
+        "comments": 67,
+        "shares": 210,
+        "completion_rate": 0.69,
+        "engagement_rate": 0.082
+      }
+    }
+  ]
+}

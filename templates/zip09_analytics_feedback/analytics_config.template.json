@@ -1,0 +1,14 @@
+{
+  "release": "ZIP09",
+  "analytics": {
+    "default_time_windows": [
+      "24h",
+      "7d",
+      "lifetime"
+    ],
+    "platform_agnostic_core": true,
+    "youtube_first_but_not_youtube_only": true,
+    "require_database": false,
+    "default_storage_provider": "json_local"
+  }
+}

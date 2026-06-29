@@ -1,0 +1,23 @@
+{
+  "experiment_id": "experiment_001",
+  "name": "hook variant comparison",
+  "target_platforms": [
+    "youtube_shorts",
+    "tiktok",
+    "instagram_reels"
+  ],
+  "variants": [
+    {
+      "variant_id": "A",
+      "label": "aggressive hook"
+    },
+    {
+      "variant_id": "B",
+      "label": "mystery hook"
+    },
+    {
+      "variant_id": "C",
+      "label": "educational hook"
+    }
+  ]
+}

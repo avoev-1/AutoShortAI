@@ -1,0 +1,14 @@
+{
+  "score_policy_id": "default_cross_platform_policy",
+  "scores": [
+    "visibility_score",
+    "retention_score",
+    "engagement_score",
+    "growth_score",
+    "platform_fit_score",
+    "cost_efficiency_score",
+    "overall_performance_score"
+  ],
+  "allow_missing_metrics": true,
+  "platform_specific_overrides": {}
+}

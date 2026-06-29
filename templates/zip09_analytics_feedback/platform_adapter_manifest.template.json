@@ -1,0 +1,12 @@
+{
+  "adapter_name": "generic_platform_metrics_adapter",
+  "platform": "generic",
+  "supported_metrics": [
+    "views",
+    "likes",
+    "comments",
+    "shares"
+  ],
+  "supports_private_metrics": false,
+  "notes": "Platform-specific API logic must remain outside analytics core."
+}

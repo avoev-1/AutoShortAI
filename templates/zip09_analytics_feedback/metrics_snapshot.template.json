@@ -1,0 +1,15 @@
+{
+  "snapshot_id": "snapshot_001",
+  "content_id": "content_001",
+  "platform": "generic",
+  "platform_content_id": "platform_content_001",
+  "time_window": "24h",
+  "metrics": {
+    "views": 0,
+    "likes": 0,
+    "comments": 0,
+    "shares": 0,
+    "completion_rate": null,
+    "engagement_rate": null
+  }
+}

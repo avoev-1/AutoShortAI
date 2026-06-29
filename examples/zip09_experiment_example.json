@@ -1,0 +1,24 @@
+{
+  "experiment_id": "exp_hook_001",
+  "name": "Cross-platform hook comparison",
+  "objective": "Compare hook style performance across platforms",
+  "target_platforms": [
+    "youtube_shorts",
+    "tiktok",
+    "instagram_reels"
+  ],
+  "variants": [
+    {
+      "variant_id": "variant_a",
+      "label": "aggressive hook"
+    },
+    {
+      "variant_id": "variant_b",
+      "label": "mystery hook"
+    },
+    {
+      "variant_id": "variant_c",
+      "label": "educational hook"
+    }
+  ]
+}
