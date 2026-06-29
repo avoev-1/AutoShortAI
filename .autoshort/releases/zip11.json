@@ -1,0 +1,36 @@
+{
+  "release": "ZIP11",
+  "name": "Lightweight Control Dashboard",
+  "archive": "AutoShortAI_ZIP11_Lightweight_Control_Dashboard",
+  "type": "architecture",
+  "status": "installed",
+  "commit_message": "feat(zip11): lightweight control dashboard",
+  "compatible_with": ["ZIP01", "ZIP02", "ZIP03", "ZIP04", "ZIP05", "ZIP06", "ZIP07", "ZIP08", "ZIP09", "ZIP10"],
+  "modules": [
+    "autoshortai.dashboard"
+  ],
+  "platform_strategy": {
+    "first_target": "YouTube Shorts",
+    "core_rule": "platform-agnostic for the complete software",
+    "future_platforms": ["TikTok", "Instagram Reels", "Facebook Reels", "Snapchat Spotlight", "X/Twitter video", "future networks"]
+  },
+  "dashboard_strategy": {
+    "default_scope": "local_first",
+    "heavy_ui_required": false,
+    "business_logic_owner": false,
+    "future_studio_ui": true
+  },
+  "non_goals": [
+    "complete heavy UI implementation",
+    "mandatory React/Vue/Svelte app",
+    "SaaS architecture",
+    "cloud dashboard",
+    "public dashboard",
+    "mandatory authentication system",
+    "mandatory database dependency",
+    "single-platform coupling",
+    "video rendering implementation",
+    "phone farm implementation",
+    "Guardian Engine implementation"
+  ]
+}

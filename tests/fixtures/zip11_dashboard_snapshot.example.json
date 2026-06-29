@@ -1,0 +1,51 @@
+{
+  "release": "ZIP11",
+  "title": "AutoShortAI Studio",
+  "status": "ok",
+  "platform_refs": [
+    "youtube_shorts",
+    "tiktok",
+    "instagram_reels"
+  ],
+  "panels": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "metrics": [
+        {
+          "key": "generated_videos",
+          "value": 124
+        },
+        {
+          "key": "time_saved_hours",
+          "value": 156
+        }
+      ]
+    },
+    {
+      "id": "pipeline",
+      "title": "Pipeline Active",
+      "steps": [
+        "script",
+        "voice",
+        "editing",
+        "subtitles",
+        "publish"
+      ]
+    },
+    {
+      "id": "system_health",
+      "title": "System Health",
+      "metrics": [
+        {
+          "key": "cpu",
+          "value": 23
+        },
+        {
+          "key": "ram",
+          "value": 45
+        }
+      ]
+    }
+  ]
+}

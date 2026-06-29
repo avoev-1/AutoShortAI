@@ -1,0 +1,8 @@
+{
+  "id": "action.pause.example",
+  "action_type": "pause_job",
+  "target_ref": "job.short.2026-06-29.001",
+  "requested_by": "local_user",
+  "safety": "confirmation_required",
+  "reason": "manual pause before provider cost spike"
+}

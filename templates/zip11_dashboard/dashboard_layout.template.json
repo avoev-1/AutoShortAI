@@ -1,0 +1,19 @@
+{
+  "release": "ZIP11",
+  "layout": "local_studio_dashboard",
+  "sections": [
+    "overview",
+    "pipeline",
+    "projects",
+    "videos",
+    "calendar",
+    "analytics",
+    "workers",
+    "storage",
+    "api_keys_masked",
+    "logs",
+    "health"
+  ],
+  "local_first": true,
+  "platform_agnostic": true
+}

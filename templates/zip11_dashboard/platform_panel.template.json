@@ -1,0 +1,5 @@
+{
+  "panel": "platform_status",
+  "adapter_contract": "PlatformDashboardAdapter",
+  "no_youtube_only_coupling": true
+}

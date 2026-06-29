@@ -1,0 +1,10 @@
+{
+  "panel": "assets",
+  "fields": [
+    "registry_status",
+    "cache_status",
+    "storage_status",
+    "integrity_status"
+  ],
+  "source_zip": "ZIP06"
+}

@@ -1,0 +1,11 @@
+{
+  "panel": "learning",
+  "fields": [
+    "suggestion",
+    "confidence_score",
+    "risk_level",
+    "policy_mode",
+    "manual_review_required"
+  ],
+  "source_zip": "ZIP10"
+}

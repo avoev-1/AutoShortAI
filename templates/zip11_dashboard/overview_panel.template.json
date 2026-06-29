@@ -1,0 +1,10 @@
+{
+  "panel": "overview",
+  "metrics": [
+    "generated_videos",
+    "total_views",
+    "subscribers_gained",
+    "time_saved"
+  ],
+  "source": "normalized_dashboard_metrics"
+}

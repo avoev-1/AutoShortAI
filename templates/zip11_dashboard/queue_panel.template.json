@@ -1,0 +1,12 @@
+{
+  "panel": "queue",
+  "states": [
+    "pending",
+    "scheduled",
+    "running",
+    "failed",
+    "completed",
+    "retrying"
+  ],
+  "source_zip": "ZIP08"
+}

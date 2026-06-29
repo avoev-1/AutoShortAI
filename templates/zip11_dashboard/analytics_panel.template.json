@@ -1,0 +1,10 @@
+{
+  "panel": "analytics",
+  "platforms": [
+    "youtube_shorts",
+    "tiktok",
+    "instagram_reels",
+    "future_platforms"
+  ],
+  "source_zip": "ZIP09"
+}
