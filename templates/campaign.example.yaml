@@ -1,0 +1,47 @@
+campaign_id: example_campaign_001
+name: Example Multi-Platform Campaign
+source_asset: ./outputs/video_001.mp4
+status: draft
+goal: revenue
+
+targets:
+  - platform: youtube_shorts
+    accounts:
+      - main_youtube_channel
+    publish_mode: scheduled
+  - platform: tiktok
+    accounts:
+      - main_tiktok_account
+    publish_mode: strategy_driven
+  - platform: instagram_reels
+    accounts:
+      - main_instagram_account
+    publish_mode: staggered
+
+schedule:
+  mode: staggered
+  start_at: null
+  timezone: local
+  spacing_minutes: 120
+
+metadata:
+  title: null
+  description: null
+  hashtags: []
+  variants:
+    enabled: true
+    count: 3
+
+rules:
+  - type: min_delay_between_posts
+    account_scope: true
+    minutes: 240
+  - type: retry_on_failure
+    max_attempts: 3
+    delay_minutes: 20
+
+analytics_objectives:
+  - views
+  - retention
+  - followers_gained
+  - revenue
