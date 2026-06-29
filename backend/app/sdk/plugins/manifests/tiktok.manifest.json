@@ -1,0 +1,19 @@
+{
+  "plugin_id": "publisher.tiktok",
+  "name": "TikTok Publisher",
+  "plugin_type": "publisher",
+  "version": "0.1.0",
+  "entrypoint": "app.plugins.publishers.tiktok.plugin:TikTokPublisherPlugin",
+  "description": "TikTok publisher plugin manifest.",
+  "permissions": [
+    "upload_later"
+  ],
+  "capabilities": [
+    {
+      "name": "short_video_publish",
+      "description": "Publish short video when enabled later"
+    }
+  ],
+  "dependencies": [],
+  "enabled": true
+}

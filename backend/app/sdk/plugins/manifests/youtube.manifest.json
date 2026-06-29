@@ -1,0 +1,20 @@
+{
+  "plugin_id": "publisher.youtube",
+  "name": "YouTube Publisher",
+  "plugin_type": "publisher",
+  "version": "0.1.0",
+  "entrypoint": "app.plugins.publishers.youtube.plugin:YouTubePublisherPlugin",
+  "description": "YouTube publisher plugin manifest.",
+  "permissions": [
+    "private_upload_later",
+    "analytics_later"
+  ],
+  "capabilities": [
+    {
+      "name": "private_upload",
+      "description": "Upload private videos when enabled later"
+    }
+  ],
+  "dependencies": [],
+  "enabled": true
+}

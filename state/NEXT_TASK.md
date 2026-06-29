@@ -1,19 +1,19 @@
 # NEXT TASK
 
 ## Task ID
-ZIP02-APPLY-CORE-ENGINE
+ZIP03-APPLY-SDK-PLUGIN-SYSTEM
 
 ## Objective
-Apply ZIP02 Core Engine and validate modular architecture.
+Apply ZIP03 SDK & Plugin System.
 
 ## Acceptance Criteria
-- `bash scripts/validate_zip02.sh` passes.
+- `bash scripts/validate_zip03.sh` passes.
 - Backend tests pass.
-- `/api/v1/core/workflow/default` returns the workflow.
-- `/api/v1/core/plan/demo` returns planned steps.
+- `/api/v1/sdk/status` returns SDK status.
+- `/api/v1/sdk/plugins` lists builtin plugin manifests.
 
 ## Validation Commands
 ```bash
-bash scripts/validate_zip02.sh
+bash scripts/validate_zip03.sh
 docker compose run --rm backend pytest
 ```

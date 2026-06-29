@@ -1,24 +1,22 @@
 {
   "project": "AutoShortAI",
-  "zip": "ZIP02_Core_Engine",
-  "version": "0.2.0",
-  "created_at": "2026-06-28T23:49:55.461602+00:00",
+  "zip": "ZIP03_SDK_Plugin_System",
+  "version": "0.3.0",
+  "created_at": "2026-06-29T00:04:54.801558+00:00",
   "status": "ready_to_apply",
   "zip00_status": "frozen_do_not_modify",
   "zip01_status": "integrated",
-  "architecture": "contract-first-modular-core",
-  "current_task": "ZIP02-APPLY-CORE-ENGINE",
+  "zip02_status": "integrated",
+  "architecture": "sdk-first-plugin-system",
+  "current_task": "ZIP03-APPLY-SDK-PLUGIN-SYSTEM",
   "modules": {
-    "core_contracts": "included",
-    "pipeline_graph": "included",
-    "orchestrator": "included",
-    "budget_guard": "included",
-    "human_control_guard": "included",
-    "queue_contract": "included",
-    "storage_contract": "included",
-    "telemetry_contract": "included",
-    "real_execution": "not_implemented",
-    "real_publishing": "disabled",
-    "paid_apis": "disabled"
+    "sdk_core": "included",
+    "manifest_registry": "included",
+    "event_bus": "included",
+    "plugin_scaffold": "included",
+    "sdk_doctor": "included",
+    "sdk_routes": "included",
+    "real_plugins": "not_implemented",
+    "real_external_apis": "disabled"
   }
 }
