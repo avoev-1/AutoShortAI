@@ -1,0 +1,24 @@
+{
+  "zip": "ZIP18",
+  "name": "Security, Secrets & Credentials Vault",
+  "archive": "AutoShortAI_ZIP18_Security_Secrets_Credentials_Vault.zip",
+  "installed_components": [
+    ".autoshort/releases/zip18",
+    "docs/AutoShortAI_ZIP18_Security_Secrets_Credentials_Vault",
+    "src/autoshortai/security_vault",
+    "templates/zip18_security_vault",
+    "tests/structure/test_zip18_structure.py",
+    "tests/fixtures/zip18_expected_files.txt",
+    "examples/zip18_secret_reference_example.json",
+    "examples/zip18_security_policy_example.yaml"
+  ],
+  "architecture_rules": [
+    "no_hardcoded_secrets",
+    "redaction_required",
+    "provider_neutral_vault",
+    "platform_agnostic_credentials",
+    "restricted_credentials_isolated",
+    "guardian_security_checks_ready",
+    "backward_compatible"
+  ]
+}

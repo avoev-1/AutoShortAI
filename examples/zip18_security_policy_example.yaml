@@ -1,0 +1,11 @@
+# Example only. No real credentials.
+security:
+  vault_provider: environment
+  dashboard_secret_display: status_only
+  redaction:
+    enabled: true
+    mask: "****REDACTED****"
+  restricted_creator_credentials:
+    enabled: false
+    manual_review_required: true
+    isolated_scope: restricted

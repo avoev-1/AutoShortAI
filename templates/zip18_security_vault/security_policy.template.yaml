@@ -1,0 +1,7 @@
+security_policy:
+  forbid_hardcoded_secrets: true
+  forbid_secrets_in_logs: true
+  forbid_secrets_in_examples: true
+  forbid_restricted_general_mixing: true
+  require_redaction: true
+  require_audit_events: true
