@@ -1,0 +1,10 @@
+request_id: strategy-demo-001
+profile_id: youtube_shorts_default
+initial_idea: "Explain why a small AI update can change an entire workflow"
+platform: youtube_shorts
+priority: quality
+requested_variants: 3
+constraints:
+  language: fr
+  max_duration_seconds: "45"
+  avoid_duplicate_topics: "true"

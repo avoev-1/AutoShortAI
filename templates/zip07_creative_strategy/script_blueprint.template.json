@@ -1,0 +1,37 @@
+{
+  "blueprint_id": "script-demo-001",
+  "idea_key": "why-this-ai-update-matters",
+  "target_duration_seconds": 38,
+  "blocks": [
+    {
+      "kind": "hook",
+      "objective": "Capture attention with a clear tension",
+      "min_seconds": 0,
+      "max_seconds": 3
+    },
+    {
+      "kind": "context",
+      "objective": "Explain the situation quickly",
+      "min_seconds": 3,
+      "max_seconds": 10
+    },
+    {
+      "kind": "value",
+      "objective": "Deliver the main insight",
+      "min_seconds": 10,
+      "max_seconds": 25
+    },
+    {
+      "kind": "twist",
+      "objective": "Reveal the overlooked consequence",
+      "min_seconds": 25,
+      "max_seconds": 34
+    },
+    {
+      "kind": "cta",
+      "objective": "Invite light engagement without sounding forced",
+      "min_seconds": 34,
+      "max_seconds": 38
+    }
+  ]
+}

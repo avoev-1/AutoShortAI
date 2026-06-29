@@ -1,0 +1,15 @@
+flow: zip07_minimal_creative_strategy
+steps:
+  - create StrategyRequest
+  - resolve CreationProfile
+  - build ContentIdea
+  - build ScriptBlueprint
+  - plan StrategyVariant list
+  - validate rules
+  - score quality
+  - return CreativeStrategyPlan
+outputs:
+  - creative_strategy_plan
+  - asset_requirements_for_zip06
+  - distribution_hints_for_zip05
+  - mission_input_for_zip04

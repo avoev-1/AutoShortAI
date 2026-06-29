@@ -1,0 +1,5 @@
+release=ZIP07 Creative Strategy Engine
+installed_at=2026-06-29T22:40:41Z
+source=/home/cxf/Bureau/Projects/Archives/AutoShortAI_ZIP07_Creative_Strategy_Engine
+target=/home/cxf/Bureau/Projects/AutoShortAI
+paths=docs/AutoShortAI_ZIP07_Creative_Strategy_Engine,src/autoshortai/creative_strategy,templates/zip07_creative_strategy,tests/structure,tests/fixtures,examples/zip07_creative_strategy

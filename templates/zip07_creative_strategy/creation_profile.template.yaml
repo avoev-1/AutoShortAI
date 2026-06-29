@@ -1,0 +1,28 @@
+profile_id: youtube_shorts_default
+platform: youtube_shorts
+content_format: short
+min_seconds: 25
+max_seconds: 45
+energy_level: high
+risk_level: low
+narrative_blocks:
+  - hook
+  - context
+  - value
+  - twist
+  - cta
+style_tags:
+  - original
+  - fast_paced
+visual_tags:
+  - vertical
+  - subtitles
+  - clean_motion
+audio_tags:
+  - voiceover
+  - punchy_music
+asset_requirements:
+  - voiceover
+  - captions
+  - background_visuals
+max_estimated_cost: 0.50

@@ -1,0 +1,8 @@
+{
+  "request_id": "fixture-strategy-001",
+  "profile_id": "youtube_shorts_default",
+  "initial_idea": "A simple short about AI automation",
+  "platform": "youtube_shorts",
+  "priority": "quality",
+  "requested_variants": 2
+}

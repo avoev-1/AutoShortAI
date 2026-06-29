@@ -1,0 +1,30 @@
+{
+  "title": "Why this AI update matters",
+  "angle": {
+    "label": "hidden consequence",
+    "description": "Focus on the detail most people ignore",
+    "risk_level": "low"
+  },
+  "hook": {
+    "text": "Most people missed the important part.",
+    "style": "mystery",
+    "expected_seconds": 3
+  },
+  "promise": {
+    "value": "Understand the concrete impact in under 40 seconds",
+    "proof_hint": "show before/after workflow"
+  },
+  "audience": {
+    "label": "AI-curious creators",
+    "interests": [
+      "AI",
+      "automation",
+      "short-form video"
+    ],
+    "experience_level": "beginner",
+    "locale": "fr-CA"
+  },
+  "source_notes": [
+    "No final script here; blueprint only."
+  ]
+}

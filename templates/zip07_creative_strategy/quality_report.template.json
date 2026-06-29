@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "scores": [
+    {
+      "dimension": "hook",
+      "value": 0.8,
+      "reason": "Strong curiosity gap"
+    },
+    {
+      "dimension": "clarity",
+      "value": 0.75,
+      "reason": "Simple promise"
+    },
+    {
+      "dimension": "retention",
+      "value": 0.7,
+      "reason": "Good pacing"
+    },
+    {
+      "dimension": "originality",
+      "value": 0.65,
+      "reason": "Needs stronger unique angle"
+    },
+    {
+      "dimension": "platform_fit",
+      "value": 0.85,
+      "reason": "Short and vertical-first"
+    },
+    {
+      "dimension": "risk",
+      "value": 0.9,
+      "reason": "Low risk"
+    },
+    {
+      "dimension": "cost",
+      "value": 0.95,
+      "reason": "Low expected provider cost"
+    }
+  ],
+  "notes": [
+    "Example only; scoring implementation belongs later."
+  ]
+}

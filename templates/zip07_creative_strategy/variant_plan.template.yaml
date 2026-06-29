@@ -1,0 +1,14 @@
+base_idea_key: why-this-ai-update-matters
+variants:
+  - variant_id: v1-aggressive-hook
+    intent: aggressive_hook
+    notes:
+      - Make the opening more direct.
+  - variant_id: v2-mystery-hook
+    intent: mystery_hook
+    notes:
+      - Create curiosity before revealing the topic.
+  - variant_id: v3-educational
+    intent: educational
+    notes:
+      - Prioritize clarity over tension.

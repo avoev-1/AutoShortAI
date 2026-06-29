@@ -1,0 +1,13 @@
+rules:
+  - rule_id: platform_duration_limit
+    severity: error
+    description: Strategy duration must fit selected platform profile.
+  - rule_id: max_estimated_cost
+    severity: warning
+    description: Estimated cost should stay under profile ceiling.
+  - rule_id: duplicate_idea_check
+    severity: warning
+    description: Idea should not duplicate a recent production plan.
+  - rule_id: required_assets_declared
+    severity: error
+    description: Strategy plan must declare required assets before execution.
