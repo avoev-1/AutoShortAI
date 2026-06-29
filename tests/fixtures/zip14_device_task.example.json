@@ -1,0 +1,9 @@
+{
+  "id": "task.render.001",
+  "task_type": "render",
+  "required_capabilities": [
+    "render"
+  ],
+  "platform_family": "generic",
+  "restriction_level": "general"
+}

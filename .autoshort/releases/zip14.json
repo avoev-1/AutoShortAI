@@ -1,0 +1,37 @@
+{
+  "release": "ZIP14",
+  "name": "Device Farm Deployment",
+  "archive": "AutoShortAI_ZIP14_Device_Farm_Deployment",
+  "type": "architecture",
+  "status": "installed",
+  "commit_message": "feat(zip14): device farm deployment",
+  "compatible_with": ["ZIP01", "ZIP02", "ZIP03", "ZIP04", "ZIP05", "ZIP06", "ZIP07", "ZIP08", "ZIP09", "ZIP10", "ZIP11", "ZIP12", "ZIP13"],
+  "modules": [
+    "autoshortai.device_farm"
+  ],
+  "platform_strategy": {
+    "core_rule": "platform-agnostic for the complete software",
+    "first_target": "YouTube Shorts",
+    "future_platforms": ["TikTok", "Instagram Reels", "Facebook Reels", "Snapchat Spotlight", "X/Twitter video", "adult/X creator platforms", "future networks"],
+    "restricted_creator_mode_dedicated": true
+  },
+  "device_farm_strategy": {
+    "local_first": true,
+    "cloud_required": false,
+    "phone_farm_ready": true,
+    "device_capability_routing": true,
+    "secure_communication_contracts": true,
+    "restricted_creator_device_workflows": true
+  },
+  "non_goals": [
+    "mobile bypass",
+    "spam automation",
+    "platform abuse",
+    "credential theft",
+    "automatic unsafe publishing",
+    "SaaS architecture",
+    "mandatory database dependency",
+    "full dashboard implementation",
+    "Guardian Engine implementation"
+  ]
+}

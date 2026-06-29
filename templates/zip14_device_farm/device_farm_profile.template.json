@@ -1,0 +1,17 @@
+{
+  "id": "default_local_farm",
+  "description": "Template for a local-first device farm profile.",
+  "devices": [
+    {
+      "id": "local-machine",
+      "type": "local_machine",
+      "capabilities": [
+        "render",
+        "ai_worker",
+        "analytics_collection"
+      ]
+    }
+  ],
+  "local_first": true,
+  "cloud_required": false
+}

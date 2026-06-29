@@ -1,0 +1,13 @@
+{
+  "id": "example_phone_rack",
+  "description": "Architecture template for owned phone rack workflows.",
+  "slots": [
+    {
+      "slot_id": "A01",
+      "device_type": "android_device",
+      "account_binding_id": "platform-account-ref"
+    }
+  ],
+  "anti_spam_policy_required": true,
+  "platform_bypass_allowed": false
+}

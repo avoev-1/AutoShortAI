@@ -1,0 +1,15 @@
+{
+  "task_id": "restricted.creator.review.001",
+  "platform_family": "adult_x_creator_platform",
+  "restriction_level": "restricted_adult_x",
+  "requires_manual_review": true,
+  "requires_isolated_device": true,
+  "required_metadata": {
+    "creator_consent": true,
+    "all_participants_18_plus": true,
+    "rights_confirmed": true,
+    "age_gate": true,
+    "manual_review_approved": false
+  },
+  "note": "This example is intentionally review-blocked until manual_review_approved is true."
+}

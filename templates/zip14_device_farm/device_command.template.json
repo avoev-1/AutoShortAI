@@ -1,0 +1,7 @@
+{
+  "id": "command.example",
+  "device_id": "local-machine",
+  "message_type": "command",
+  "command_name": "health_check",
+  "payload": {}
+}

@@ -1,0 +1,16 @@
+{
+  "id": "adult_x_creator_default",
+  "enabled": false,
+  "manual_review_required": true,
+  "isolated_device_required": true,
+  "isolated_account_binding_required": true,
+  "consent_required": true,
+  "all_participants_18_plus_required": true,
+  "age_gate_required": true,
+  "blocked_flags": [
+    "minor_involved",
+    "non_consensual",
+    "illegal_content",
+    "platform_policy_violation"
+  ]
+}
