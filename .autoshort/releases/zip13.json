@@ -1,0 +1,42 @@
+{
+  "release": "ZIP13",
+  "name": "AI Worker Runtime",
+  "archive": "AutoShortAI_ZIP13_AI_Worker_Runtime",
+  "type": "architecture",
+  "status": "installed",
+  "commit_message": "feat(zip13): ai worker runtime",
+  "compatible_with": ["ZIP01", "ZIP02", "ZIP03", "ZIP04", "ZIP05", "ZIP06", "ZIP07", "ZIP08", "ZIP09", "ZIP10", "ZIP11", "ZIP12"],
+  "modules": [
+    "autoshortai.ai_runtime"
+  ],
+  "platform_strategy": {
+    "core_rule": "platform-agnostic for the complete software",
+    "first_target": "YouTube Shorts",
+    "future_platforms": ["TikTok", "Instagram Reels", "Facebook Reels", "Snapchat Spotlight", "X/Twitter video", "adult/18+ creator platforms", "future networks"],
+    "adult_platforms_are_restricted_adapters": true
+  },
+  "ai_runtime_strategy": {
+    "provider_neutral": true,
+    "mandatory_openai": false,
+    "mandatory_elevenlabs": false,
+    "mandatory_cloud": false,
+    "local_first_ready": true,
+    "cloud_optional": true,
+    "capability_based_routing": true,
+    "manual_review_ready": true,
+    "restricted_platform_ready": true
+  },
+  "non_goals": [
+    "real API calls",
+    "mandatory provider dependency",
+    "mandatory API keys",
+    "unrestricted adult-content automation",
+    "automatic publishing",
+    "complete rendering implementation",
+    "dashboard UI implementation",
+    "Guardian Engine implementation",
+    "phone farm implementation",
+    "SaaS architecture",
+    "mandatory database dependency"
+  ]
+}

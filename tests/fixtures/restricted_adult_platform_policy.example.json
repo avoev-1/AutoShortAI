@@ -1,0 +1,13 @@
+{
+  "category": "adult_creator_platform",
+  "status": "architecture_readiness_only",
+  "requires_manual_review": true,
+  "requires_age_gate": true,
+  "requires_consent_metadata": true,
+  "blocked_flags": [
+    "minor_or_ambiguous_age",
+    "non_consensual",
+    "illegal_content"
+  ],
+  "core_rule": "restricted platform support must remain adapter-based and opt-in"
+}

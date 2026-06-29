@@ -1,0 +1,13 @@
+{
+  "id": "provider.example",
+  "display_name": "Example Provider",
+  "provider_type": "cloud_or_local_or_manual",
+  "enabled": false,
+  "requires_network": true,
+  "credential_ref": "vault://future/provider/example",
+  "capabilities": [
+    "script_generation",
+    "title_generation"
+  ],
+  "notes": "Template only. ZIP13 does not require real credentials."
+}

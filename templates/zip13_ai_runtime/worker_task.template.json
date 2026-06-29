@@ -1,0 +1,14 @@
+{
+  "id": "ai.task.example.script",
+  "task_type": "script_generation",
+  "prompt_template_id": "script_generation",
+  "required_capabilities": [
+    "text_generation",
+    "short_form_script"
+  ],
+  "platform_context_id": "generic_vertical_video",
+  "maturity_rating": "general",
+  "safety_review_level": "basic",
+  "max_cost": 0.05,
+  "language": "fr"
+}

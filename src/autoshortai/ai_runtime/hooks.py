@@ -1,0 +1,15 @@
+ZIP13_AI_RUNTIME_HOOKS = (
+    "before_ai_task_created",
+    "after_ai_task_created",
+    "before_worker_selected",
+    "after_worker_selected",
+    "before_provider_called",
+    "after_provider_called",
+    "before_ai_result_saved",
+    "after_ai_result_saved",
+    "after_ai_task_failed",
+    "before_safety_review",
+    "after_safety_review",
+    "before_restricted_platform_review",
+    "after_restricted_platform_review",
+)
