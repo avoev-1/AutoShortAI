@@ -1,0 +1,14 @@
+baseline: AutoShortAI v1 Architecture Baseline
+modules:
+  - id: zip01
+    name: Production Foundation
+    status: architecture_ready
+  - id: zip15
+    name: Guardian Engine Foundation
+    status: architecture_ready
+  - id: zip18
+    name: Security Secrets Credentials Vault
+    status: architecture_ready
+  - id: zip20
+    name: Beta Stabilization Release Governance
+    status: architecture_ready

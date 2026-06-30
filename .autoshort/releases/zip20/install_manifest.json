@@ -1,0 +1,27 @@
+{
+  "zip": "ZIP20",
+  "name": "Beta Stabilization & Release Governance",
+  "archive": "AutoShortAI_ZIP20_Beta_Stabilization_Release_Governance.zip",
+  "baseline": "AutoShortAI v1 Architecture Baseline",
+  "installed_components": [
+    ".autoshort/releases/zip20",
+    "docs/AutoShortAI_ZIP20_Beta_Stabilization_Release_Governance",
+    "src/autoshortai/release_governance",
+    "templates/zip20_release_governance",
+    "tests/structure/test_zip20_structure.py",
+    "tests/fixtures/zip20_expected_files.txt",
+    "examples/zip20_release_candidate_example.json",
+    "examples/zip20_stability_matrix_example.yaml",
+    "examples/zip20_beta_checklist_example.md"
+  ],
+  "architecture_rules": [
+    "v1_architecture_baseline",
+    "guardian_required_before_release",
+    "vault_required_for_secrets",
+    "packaging_verification_required",
+    "platform_agnostic",
+    "restricted_creator_mode_disabled_by_default",
+    "backward_compatible",
+    "no_saas_drift"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "rc-{{version}}",
+  "version": "{{version}}",
+  "baseline": "AutoShortAI v1 Architecture Baseline",
+  "status": "candidate",
+  "required_gates": [
+    "guardian",
+    "verify",
+    "vault",
+    "packaging",
+    "compatibility",
+    "restricted",
+    "platform"
+  ],
+  "notes": "Template only. Do not include secrets."
+}

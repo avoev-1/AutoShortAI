@@ -1,0 +1,16 @@
+restricted_creator_governance:
+  enabled_by_default: false
+  opt_in_required: true
+  isolated_workspace_required: true
+  isolated_credentials_required: true
+  isolated_logs_required: true
+  manual_review_required: true
+  consent_metadata_required: true
+  all_participants_18_plus_required: true
+  maturity_rating_required: true
+  blocked_content_flags:
+    - illegal_content
+    - non_consensual_content
+    - underage_content
+    - unverified_age
+    - missing_consent_metadata
