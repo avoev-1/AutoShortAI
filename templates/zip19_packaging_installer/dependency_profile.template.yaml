@@ -1,0 +1,15 @@
+dependency_profile:
+  required:
+    - name: python
+      kind: python
+      module_pack: core_only
+  optional:
+    - name: ffmpeg
+      kind: ffmpeg
+      module_pack: rendering_pack
+    - name: node
+      kind: node
+      module_pack: creator_studio
+    - name: os_keyring
+      kind: os_keyring
+      module_pack: core_only

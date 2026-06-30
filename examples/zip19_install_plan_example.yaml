@@ -1,0 +1,15 @@
+# Example install plan only. No real secrets.
+install_plan:
+  plan_id: developer_mode_linux_example
+  target: linux_desktop
+  dry_run_supported: true
+  steps:
+    - step_id: check_python
+      required: true
+      rollback_available: false
+    - step_id: create_local_dirs
+      required: true
+      rollback_available: true
+    - step_id: write_launcher_profile
+      required: false
+      rollback_available: true

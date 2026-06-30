@@ -1,0 +1,7 @@
+installer_profile:
+  installer_id: local_beta_linux
+  target: linux_desktop
+  install_mode: local_beta
+  allow_destructive_changes: false
+  require_guardian_check: true
+  require_security_check: true

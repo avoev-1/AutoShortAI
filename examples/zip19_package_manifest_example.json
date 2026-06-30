@@ -1,0 +1,20 @@
+{
+  "note": "Example manifest only. No real secrets or private media.",
+  "package_id": "autoshortai-portable-cli-example",
+  "target": "portable_cli",
+  "profile": "portable",
+  "module_packs": [
+    "core_only",
+    "developer_pack"
+  ],
+  "runtime_modes": [
+    "cli",
+    "guardian",
+    "safe_mode"
+  ],
+  "restricted_creator_pack": {
+    "enabled_by_default": false,
+    "opt_in_required": true
+  },
+  "secrets_policy": "references_only_zip18_vault"
+}

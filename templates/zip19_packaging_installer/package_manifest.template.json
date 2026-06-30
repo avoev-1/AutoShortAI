@@ -1,0 +1,25 @@
+{
+  "package_id": "autoshortai-local-beta-example",
+  "version": "0.0.0-architecture",
+  "target": "linux_desktop",
+  "profile": "local_beta",
+  "module_packs": [
+    "core_only",
+    "creator_studio"
+  ],
+  "dependencies": [
+    {
+      "name": "python",
+      "kind": "python",
+      "required": true,
+      "module_pack": "core_only"
+    },
+    {
+      "name": "ffmpeg",
+      "kind": "ffmpeg",
+      "required": false,
+      "module_pack": "rendering_pack"
+    }
+  ],
+  "secrets": "references_only_never_values"
+}

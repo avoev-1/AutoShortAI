@@ -1,0 +1,25 @@
+{
+  "zip": "ZIP19",
+  "name": "Cross-Platform Packaging & Installer",
+  "archive": "AutoShortAI_ZIP19_Cross_Platform_Packaging_Installer.zip",
+  "installed_components": [
+    ".autoshort/releases/zip19",
+    "docs/AutoShortAI_ZIP19_Cross_Platform_Packaging_Installer",
+    "src/autoshortai/packaging_installer",
+    "templates/zip19_packaging_installer",
+    "tests/structure/test_zip19_structure.py",
+    "tests/fixtures/zip19_expected_files.txt",
+    "examples/zip19_package_manifest_example.json",
+    "examples/zip19_install_plan_example.yaml"
+  ],
+  "architecture_rules": [
+    "local_first",
+    "cross_platform",
+    "optional_dependencies",
+    "module_scoped_packs",
+    "no_packaged_secrets",
+    "restricted_creator_pack_disabled_by_default",
+    "guardian_packaging_checks_ready",
+    "backward_compatible"
+  ]
+}
